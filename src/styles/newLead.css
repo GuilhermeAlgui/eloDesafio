@@ -1,0 +1,93 @@
+#newLeadContainer{
+    height: 100vh;
+    width: 100vw;
+    padding: 30px 10px 0 30px;
+}
+
+#newLeadHead{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#newLeadHead img{
+    background-color: #32373B;
+    width: 250px;
+    padding: 20px 40px;
+}
+#newLeadHead p{
+    font-size: 24px;
+}
+
+.newLeadInfo{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 90vw;
+}
+
+.newLeadForm{
+
+}
+
+
+.newLeadForm p{
+    font-size: 16px;
+}
+
+.newLeadForm input{
+    width: 60%;
+    height: 40px;
+    font-size: 16px;
+}
+
+.newLeadOportunities{
+
+}
+.newLeadOportunities .newLeadTitle{
+    font-size: 20px;
+
+}
+
+.newLeadOportunitiesContainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.newLeadOportunitiesContainer div{
+    display: grid;
+    grid-template-columns: 20px 4fr;
+    
+    
+
+}
+
+.newLeadCheckBox{
+    background: #EEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 0.1px;
+}
+
+.newLeadOportunitiesName{
+    border-style: solid;
+    border-width: 0.1px;
+    background-color: #DDD;
+}
+.newLeadOportunitiesName p{
+    margin-left: 10px;
+}
+
+.newLeadButton{
+    background-color:  #5590B4;
+    border-width: 0;
+    height: 50px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EEE;
+    font-weight: bold;
+}

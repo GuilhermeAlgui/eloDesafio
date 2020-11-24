@@ -1,0 +1,44 @@
+.landingContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+    flex: 0;
+    padding: 0 0 0 0;
+    align-items: center;
+}
+
+.landingContainer img{
+
+}
+.landingForm{   
+    justify-self: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 40px;
+    border-style: solid;
+    border-width: 5px;
+    max-height: 75vh;    
+    
+}
+.landingForm img{
+    background-color: #32373B;
+    width: 250px;
+    padding: 20px 40px;
+}
+
+.landingForm p{
+    font-size: 24px;
+}
+.landingForm input{
+    font-size: 24px;
+}
+
+.landingForm button{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 15px;
+}

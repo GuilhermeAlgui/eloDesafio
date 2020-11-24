@@ -1,0 +1,84 @@
+#leadContainer{
+    width: 80vw;
+    height: 100vh;
+    padding: 30px;
+
+}
+
+.leadHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 75px;
+
+}
+
+.leadHeader img{
+    background-color: #000;
+    padding: 10px;
+}
+.leadHeader p {
+    font-size: 24px;
+}
+
+.leadButtonContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.leadButton{
+    background-color:  #5590B4;
+    border-width: 0;
+    height: 50px;
+    margin-bottom: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EEE;
+    font-weight: bold;
+    
+}
+.leadButtonSave{
+    background-color:  #93b455;
+    border-width: 0;
+    height: 50px;
+    margin-bottom: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EEE;
+    font-weight: bold;
+    
+}
+
+.leadTitleGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.leadTitleContainer{
+    background: #CCC;
+    border-width: 0.1px;
+    border-style: solid;
+}
+
+.leadTitle{
+    text-align: center;
+}
+
+.leadItemContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.leadItem{
+    background: #EEE;
+    border-width: 0.1px;
+    border-style: solid;
+
+}
+    
+.leadItemName{
+    text-align: center;
+}
